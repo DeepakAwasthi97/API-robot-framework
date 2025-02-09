@@ -18,3 +18,4 @@ HTTP Test demo
     ${response}=    GET On Session    session1   ${endpoint}
     Should Be Equal As Numbers    ${response.status_code}    200
     Log    ${response.headers}
+    Log    ${response.status_code}
