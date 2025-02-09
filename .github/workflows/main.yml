@@ -32,4 +32,4 @@ jobs:
 
     - name: Run tests
       run: |
-        robot --pythonpath .:./libraries SanityTest.robot
+        robot API/Tests/SanityTest.robot
