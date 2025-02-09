@@ -27,8 +27,6 @@ jobs:
         pip install robotframework
         pip install robotframework-requests
         pip install robotframework-jsonlibrary
-        # Add any other dependencies your tests need
-        pip install -r requirements.txt
 
     - name: Run tests
       run: |
