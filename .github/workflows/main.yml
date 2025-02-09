@@ -30,4 +30,4 @@ jobs:
 
     - name: Run tests
       run: |
-        robot API/Tests/SanityTest.robot
+        robot SanityTest.robot
